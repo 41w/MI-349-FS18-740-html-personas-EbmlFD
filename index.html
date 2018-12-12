@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" type="text/css">
+  <script src="jquery-3.3.1.min.js"></script>
+  <title>Pitchboard</title>
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 40px auto;
+      max-width: 800px;
+      background: url('https://www.jpl.nasa.gov/images/universe/20120111/micro20120111-full.jpg');
+      background-size: cover;
+      color: white;
+    }
+
+    div {
+      background: rgba(1,1,1,0.9);
+      margin: 40px 0 0 0;
+    }
+
+    h2 {
+      font-size: 52px;
+      text-align: center;
+      font-family: 'Satisfy', cursive;
+      padding: 20px 0 0 0;
+    }
+
+    p, ul {
+      font-size: 20px;
+      margin: -40px 0 0 0;
+      padding: 10px 20px 30px 20px;
+      line-height: 30px;
+    }
+
+    .personas li {
+      display: inline-block;
+      height: 150px;
+      width: 150px;
+      text-align: center;
+      margin: 0 20px 0 0;
+    }
+
+    .comps li {
+      display: inline;
+      margin: 0 40px;
+      font-size: 26px;
+    }
+
+    .title p {
+      font-size: 20px;
+    }
+  
+    .title, .personas, .comps {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="title">
+    <h2>Title</h2>
+    <p>The Homepage of <strong>41#Explorer</strong></p>
+  </div>
+  
+  <div class="short">
+    <h2>Short Pitch</h2>
+    <p>The homepage of <strong>41#Explorer</strong> shows the visitors about our company, including our unique culture and background stories, besides, the visitors can meet the team and our partners, and connect with us through the homepage. </p>
+  </div>
+  
+  <div class="long">
+    <h2>Long Pitch</h2>
+    <p>The homepage of our company is a great way for people to learn more about our company and our unique culture. The visitors are able to see the developing history of the company, things we have done and how we shaped our values. The website also contains the company’s future plans and missions which allows people to see the targets we are approaching. </p>
+  </div>
+
+  <div class="personas">
+    <h2>Personas</h2>
+    <ul>
+      <li><a href="client.html" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wbQoNw6TaEWz1ksMpgn-3axrQgiecxffp9Lm-VeK21pXuaQA" alt="Client/Partner Persona" width="150" height="150">Client/Partner</a></li>
+      <li><a href="recruit.html" target="_blank"><img src="data:image/png;base64,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" alt="Recruit Persona" width="150" height="150">Recruit</a></li>
+      <li><a href="employee.html" target="_blank"><img src="https://images.g2crowd.com/uploads/product/hd_favicon/1487566672/recruitee.svg" alt="Employee Persona" width="150" height="150">Employee</a></li>
+    </ul>
+  </div>
+
+  <div class="comps">
+    <h2>Comps</h2>
+    <ul>
+      <li>Astrobotic</li>
+      <li>Moon Express</li>
+      <li>SpaceVR</li>
+    </ul>
+  </div>
+
+</body>
+</html>
